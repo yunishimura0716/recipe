@@ -7,7 +7,6 @@ class CalcTests(TestCase):
         """Test that two nubmers are added together"""
         self.assertEqual(add(3, 8), 11)
 
-
     def test_sub_nubmer(self):
         """Subtract that two numbers are added together"""
         self.assertEqual(sub(6, 11), 5)
