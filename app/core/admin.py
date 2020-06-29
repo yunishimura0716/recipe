@@ -16,9 +16,9 @@ class UserAdmin(BaseUserAdmin):
         ),
         (_('Important dates'), {'fields': ('last_login', )})
     )
-    add_filedsets = (
+    add_fieldsets = (
         (None, {
-            'class': ('wide',),
+            'classes': ('wide',),
             'fields': ('email', 'password1', 'password2')
         }),
     )
