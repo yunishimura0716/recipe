@@ -1,5 +1,6 @@
 import tempfile
 import os
+import getpass
 from PIL import Image
 
 from django.contrib.auth import get_user_model
@@ -230,6 +231,7 @@ class RecipeImageUploadTests(TestCase):
             img = Image.new('RGB', (10, 10))
             img.save(ntf, format='JPEG')
             ntf.seek(0)
+            print('\n' + getpass.getuser())
             res = self.client.post(url, {'image': ntf}, format='multipart')
 
         self.recipe.refresh_from_db()
