@@ -1,6 +1,5 @@
 import tempfile
 import os
-import getpass
 from PIL import Image
 
 from django.contrib.auth import get_user_model
