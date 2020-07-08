@@ -231,8 +231,13 @@ class RecipeImageUploadTests(TestCase):
         img = Image.new('RGB', (10, 10))
         img.save(ntf, format='JPEG')
         ntf.seek(0)
-        print('\n' + getpass.getuser())
-        res = self.client.post(url, data={'image': ntf}, format='multipart')
+        with open(ntf.name, 'rb') as data:
+            print('\n' + getpass.getuser())
+            res = self.client.post(
+                url,
+                data={'image': data},
+                format='multipart'
+            )
 
         self.recipe.refresh_from_db()
 
