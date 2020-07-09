@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c155f8-2a9f-4005-82b1-b0e1ee39a382" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="recipe-app-api" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,11 +67,18 @@
       <updated>1593390938836</updated>
       <workItem from="1594189913110" duration="1032000" />
       <workItem from="1594191996878" duration="68000" />
-      <workItem from="1594249391936" duration="669000" />
+      <workItem from="1594249391936" duration="2952000" />
+      <workItem from="1594269789932" duration="577000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="725" y="111" width="670" height="676" key="search.everywhere.popup" timestamp="1594253651612">
+      <screen x="0" y="23" width="1440" height="764" />
+    </state>
+    <state x="725" y="111" width="670" height="676" key="search.everywhere.popup/0.23.1440.764@0.23.1440.764" timestamp="1594253651612" />
   </component>
 </project>
